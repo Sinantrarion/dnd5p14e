@@ -163,7 +163,11 @@ class ffxivfeatureaddition{
 
   static async AddSpellSchools(){
     CONFIG.DND5E.spellSchools  = [];
-    CONFIG.DND5E.spellSchools[''] = "";
+    CONFIG.DND5E.spellSchools['black'] = "Black Magic";
+    CONFIG.DND5E.spellSchools['white'] = "White Magic";
+    CONFIG.DND5E.spellSchools['spatial'] = "Spatial Magic";
+    CONFIG.DND5E.spellSchools['arcane'] = "Arcane Magic";
+    CONFIG.DND5E.spellSchools['green'] = "Green Magic";
   }
 
   //This might need to go or be fixed to only specific values or resorted or something.
