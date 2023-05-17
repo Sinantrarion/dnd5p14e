@@ -1,0 +1,29 @@
+{
+  "name": "dnd5p14e",
+  "title": "DnD 5.14e Features",
+  "description": "Adds DnD 5.14e features, values and more into Foundry DnD5e",
+  "version": "0.11",
+  "authors": [
+    {
+      "name": "Sinantrarion",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "styles": [],
+  "scripts": ["ffxivfeatureaddition.js"],
+  "manifest": "https://raw.githubusercontent.com/Sinantrarion/dnd5p14e/main/module.json",
+  "download": "https://github.com/Sinantrarion/dnd5p14e/archive/main.zip"
+}
